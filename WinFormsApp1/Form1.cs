@@ -35,8 +35,8 @@ namespace WinFormsApp1
                 iranyBalra=true;
                 
             }
-            point.X += iranyBalra ? -lepesOldalt : lepesOldalt;
-            point.Y += iranyFel ? -lepesFel : lepesFel;
+            point.X += iranyBalra ? -this.lepesOldalt : this.lepesOldalt;
+            point.Y += iranyFel ? -this.lepesFel : this.lepesFel;
 
             kattint.Location = point;
         }
