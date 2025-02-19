@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp2", "WinFormsApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kurzor", "Kurzor\Kurzor.csproj", "{973D4621-C810-43CB-BED7-7A07F6447832}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mozg", "Mozg\Mozg.csproj", "{76EF7047-CECB-4CC0-9B3E-050227148935}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{973D4621-C810-43CB-BED7-7A07F6447832}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{973D4621-C810-43CB-BED7-7A07F6447832}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{973D4621-C810-43CB-BED7-7A07F6447832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76EF7047-CECB-4CC0-9B3E-050227148935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76EF7047-CECB-4CC0-9B3E-050227148935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76EF7047-CECB-4CC0-9B3E-050227148935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76EF7047-CECB-4CC0-9B3E-050227148935}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
