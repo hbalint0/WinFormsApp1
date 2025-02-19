@@ -12,11 +12,11 @@ namespace WinFormsApp1
         private void kattint_Click(object sender, EventArgs e)
         {
             Point point = kattint.Location;
-            if(iranyFel && (point.Y - lepesFel) <0)
+            if(this.iranyFel && (point.Y - lepesFel) <=0)
             {
-                iranyFel=false;
+                this.iranyFel=false;
             }
-            if (iranyBalra && (point.X - lepesOldalt) < 0)
+            if (iranyBalra && (point.X - lepesOldalt) <= 0)
             {
                 iranyBalra = false;
             }
