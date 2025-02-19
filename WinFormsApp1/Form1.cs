@@ -14,10 +14,13 @@ namespace WinFormsApp1
             Point point = kattint.Location;
             if(this.iranyFel && (point.Y - lepesFel) <=0)
             {
+            //Függõleges irány változtatása
                 this.iranyFel=false;
             }
+            //Vízszintes irány vizsgálása
             if (iranyBalra && (point.X - lepesOldalt) <= 0)
             {
+                //Vízszintes irány változtatása
                 iranyBalra = false;
             }
 
