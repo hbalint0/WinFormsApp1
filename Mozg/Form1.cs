@@ -13,6 +13,7 @@ namespace Mozg
         {
 
         }
+        private double opValtoz = 0.2;
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -36,10 +37,7 @@ namespace Mozg
 
         }
 
-        private void Form1_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void btnCsok_Click(object sender, EventArgs e)
         {
@@ -59,7 +57,63 @@ namespace Mozg
 
         private void btnFel_Click(object sender, EventArgs e)
         {
-            Location = new Point(Location.X, Location.Y - Location.Y - valtMagas <= 0? 0: Location.Y - valtMagas);
+            Location = new Point(Location.X, Location.Y - valtMagas <= 0 ? 0 : Location.Y - valtMagas);
+        }
+
+        private void btnKozep_Click(object sender, EventArgs e)
+        {
+            CenterToScreen();
+        }
+
+        private void btnLe_Click(object sender, EventArgs e)
+        {
+            Location = new Point(Location.X, Location.Y + valtMagas <= 0 ? 0 : Location.Y + valtMagas);
+        }
+
+        private void btnAlul_Click(object sender, EventArgs e)
+        {
+            Location = new Point(Location.X, Screen.GetWorkingArea(this).Height - Height);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBalszel_Click(object sender, EventArgs e)
+        {
+            Location = new Point(0, Location.Y);
+        }
+
+        private void btnBal_Click(object sender, EventArgs e)
+        {
+            Location = new Point(Location.X - valtSzeles < 0 ? 0 : Location.X - valtSzeles, Location.Y);
+        }
+
+        private void Form1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnJobb_Click(object sender, EventArgs e)
+        {
+            Location = new Point(Location.X + Width + valtSzeles >= Screen.GetWorkingArea(this).Width
+                ? Screen.GetWorkingArea(this).Width - valtSzeles : Location.X + valtSzeles, Location.Y);
+        }
+
+        private void btnJobbsz_Click(object sender, EventArgs e)
+        {
+            Location = new Point(Screen.PrimaryScreen.Bounds.Width - Width, Location.Y);
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Opacity += opValtoz;
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Opacity -= opValtoz;
         }
     }
 }

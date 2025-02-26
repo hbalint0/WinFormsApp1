@@ -33,13 +33,13 @@
             btnCsok = new Button();
             button3 = new Button();
             btnFelul = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
+            btnKozep = new Button();
+            btnJobb = new Button();
+            btnJobbsz = new Button();
+            btnBal = new Button();
+            btnBalszel = new Button();
+            btnLe = new Button();
+            btnAlul = new Button();
             button12 = new Button();
             button13 = new Button();
             label1 = new Label();
@@ -92,68 +92,75 @@
             btnFelul.UseVisualStyleBackColor = true;
             btnFelul.Click += btnFelul_Click;
             // 
-            // button5
+            // btnKozep
             // 
-            button5.Location = new Point(323, 270);
-            button5.Name = "button5";
-            button5.Size = new Size(75, 23);
-            button5.TabIndex = 4;
-            button5.Text = "Középre";
-            button5.UseVisualStyleBackColor = true;
+            btnKozep.Location = new Point(323, 270);
+            btnKozep.Name = "btnKozep";
+            btnKozep.Size = new Size(75, 23);
+            btnKozep.TabIndex = 4;
+            btnKozep.Text = "Középre";
+            btnKozep.UseVisualStyleBackColor = true;
+            btnKozep.Click += btnKozep_Click;
             // 
-            // button6
+            // btnJobb
             // 
-            button6.Location = new Point(441, 270);
-            button6.Name = "button6";
-            button6.Size = new Size(75, 23);
-            button6.TabIndex = 5;
-            button6.Text = "Jobbra";
-            button6.UseVisualStyleBackColor = true;
+            btnJobb.Location = new Point(441, 270);
+            btnJobb.Name = "btnJobb";
+            btnJobb.Size = new Size(75, 23);
+            btnJobb.TabIndex = 5;
+            btnJobb.Text = "Jobbra";
+            btnJobb.UseVisualStyleBackColor = true;
+            btnJobb.Click += btnJobb_Click;
             // 
-            // button7
+            // btnJobbsz
             // 
-            button7.Location = new Point(576, 270);
-            button7.Name = "button7";
-            button7.Size = new Size(75, 23);
-            button7.TabIndex = 6;
-            button7.Text = "Jobbszélre";
-            button7.UseVisualStyleBackColor = true;
+            btnJobbsz.Location = new Point(576, 270);
+            btnJobbsz.Name = "btnJobbsz";
+            btnJobbsz.Size = new Size(75, 23);
+            btnJobbsz.TabIndex = 6;
+            btnJobbsz.Text = "Jobbszélre";
+            btnJobbsz.UseVisualStyleBackColor = true;
+            btnJobbsz.Click += btnJobbsz_Click;
             // 
-            // button8
+            // btnBal
             // 
-            button8.Location = new Point(189, 270);
-            button8.Name = "button8";
-            button8.Size = new Size(75, 23);
-            button8.TabIndex = 7;
-            button8.Text = "Balra";
-            button8.UseVisualStyleBackColor = true;
+            btnBal.Location = new Point(189, 270);
+            btnBal.Name = "btnBal";
+            btnBal.Size = new Size(75, 23);
+            btnBal.TabIndex = 7;
+            btnBal.Text = "Balra";
+            btnBal.UseVisualStyleBackColor = true;
+            btnBal.Click += btnBal_Click;
             // 
-            // button9
+            // btnBalszel
             // 
-            button9.Location = new Point(77, 270);
-            button9.Name = "button9";
-            button9.Size = new Size(75, 23);
-            button9.TabIndex = 8;
-            button9.Text = "Balszélre";
-            button9.UseVisualStyleBackColor = true;
+            btnBalszel.Location = new Point(77, 270);
+            btnBalszel.Name = "btnBalszel";
+            btnBalszel.Size = new Size(75, 23);
+            btnBalszel.TabIndex = 8;
+            btnBalszel.Text = "Balszélre";
+            btnBalszel.UseVisualStyleBackColor = true;
+            btnBalszel.Click += btnBalszel_Click;
             // 
-            // button10
+            // btnLe
             // 
-            button10.Location = new Point(323, 322);
-            button10.Name = "button10";
-            button10.Size = new Size(75, 23);
-            button10.TabIndex = 9;
-            button10.Text = "button10";
-            button10.UseVisualStyleBackColor = true;
+            btnLe.Location = new Point(323, 322);
+            btnLe.Name = "btnLe";
+            btnLe.Size = new Size(75, 23);
+            btnLe.TabIndex = 9;
+            btnLe.Text = "Le";
+            btnLe.UseVisualStyleBackColor = true;
+            btnLe.Click += btnLe_Click;
             // 
-            // button11
+            // btnAlul
             // 
-            button11.Location = new Point(323, 381);
-            button11.Name = "button11";
-            button11.Size = new Size(75, 23);
-            button11.TabIndex = 10;
-            button11.Text = "button11";
-            button11.UseVisualStyleBackColor = true;
+            btnAlul.Location = new Point(323, 381);
+            btnAlul.Name = "btnAlul";
+            btnAlul.Size = new Size(75, 23);
+            btnAlul.TabIndex = 10;
+            btnAlul.Text = "Alulra";
+            btnAlul.UseVisualStyleBackColor = true;
+            btnAlul.Click += btnAlul_Click;
             // 
             // button12
             // 
@@ -163,6 +170,7 @@
             button12.TabIndex = 11;
             button12.Text = "Növekszik";
             button12.UseVisualStyleBackColor = true;
+            button12.Click += button12_Click;
             // 
             // button13
             // 
@@ -172,6 +180,7 @@
             button13.TabIndex = 12;
             button13.Text = "Csökken";
             button13.UseVisualStyleBackColor = true;
+            button13.Click += button13_Click;
             // 
             // label1
             // 
@@ -234,17 +243,18 @@
             Controls.Add(btnFel);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            Controls.Add(button11);
-            Controls.Add(button10);
-            Controls.Add(button9);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
+            Controls.Add(btnAlul);
+            Controls.Add(btnLe);
+            Controls.Add(btnBalszel);
+            Controls.Add(btnBal);
+            Controls.Add(btnJobbsz);
+            Controls.Add(btnJobb);
+            Controls.Add(btnKozep);
             Controls.Add(btnFelul);
             Controls.Add(button3);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             Click += Form1_Click;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
@@ -260,13 +270,13 @@
         private Button btnCsok;
         private Button button3;
         private Button btnFelul;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
+        private Button btnKozep;
+        private Button btnJobb;
+        private Button btnJobbsz;
+        private Button btnBal;
+        private Button btnBalszel;
+        private Button btnLe;
+        private Button btnAlul;
         private Button button12;
         private Button button13;
         private Label label1;
