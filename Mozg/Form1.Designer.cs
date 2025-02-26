@@ -224,6 +224,7 @@
             btnFel.TabIndex = 19;
             btnFel.Text = "Fel";
             btnFel.UseVisualStyleBackColor = true;
+            btnFel.Click += btnFel_Click;
             // 
             // Form1
             // 

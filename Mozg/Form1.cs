@@ -56,5 +56,10 @@ namespace Mozg
         {
             Location = new Point(Location.X, 0);
         }
+
+        private void btnFel_Click(object sender, EventArgs e)
+        {
+            Location = new Point(Location.X, Location.Y - Location.Y - valtMagas <= 0? 0: Location.Y - valtMagas);
+        }
     }
 }
