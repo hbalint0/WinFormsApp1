@@ -28,159 +28,162 @@
         /// </summary>
         private void InitializeComponent()
         {
-            pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
-            pictureBox3 = new PictureBox();
-            pictureBox4 = new PictureBox();
-            pictureBox5 = new PictureBox();
-            pictureBox6 = new PictureBox();
-            pictureBox7 = new PictureBox();
-            pictureBox8 = new PictureBox();
-            pictureBox9 = new PictureBox();
-            pictureBox10 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
+            picture5 = new PictureBox();
+            picture4 = new PictureBox();
+            picture2 = new PictureBox();
+            picture7 = new PictureBox();
+            picture1 = new PictureBox();
+            picture10 = new PictureBox();
+            picture9 = new PictureBox();
+            picture8 = new PictureBox();
+            picture6 = new PictureBox();
+            picture3 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)picture5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picture4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picture2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picture7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picture1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picture10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picture9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picture8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picture6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picture3).BeginInit();
             SuspendLayout();
             // 
-            // pictureBox1
+            // picture5
             // 
-            pictureBox1.Image = Properties.Resources.fej2;
-            pictureBox1.Location = new Point(284, 300);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(73, 75);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            picture5.Image = Properties.Resources.fej5;
+            picture5.Location = new Point(284, 300);
+            picture5.Name = "picture5";
+            picture5.Size = new Size(73, 75);
+            picture5.TabIndex = 0;
+            picture5.TabStop = false;
             // 
-            // pictureBox2
+            // picture4
             // 
-            pictureBox2.Image = Properties.Resources.fej4;
-            pictureBox2.Location = new Point(435, 300);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(71, 70);
-            pictureBox2.TabIndex = 1;
-            pictureBox2.TabStop = false;
+            picture4.Image = Properties.Resources.fej4;
+            picture4.Location = new Point(435, 300);
+            picture4.Name = "picture4";
+            picture4.Size = new Size(71, 70);
+            picture4.TabIndex = 1;
+            picture4.TabStop = false;
             // 
-            // pictureBox3
+            // picture2
             // 
-            pictureBox3.Image = Properties.Resources.fej8;
-            pictureBox3.Location = new Point(558, 129);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(73, 71);
-            pictureBox3.TabIndex = 2;
-            pictureBox3.TabStop = false;
+            picture2.Image = Properties.Resources.fej2;
+            picture2.Location = new Point(558, 129);
+            picture2.Name = "picture2";
+            picture2.Size = new Size(73, 71);
+            picture2.TabIndex = 2;
+            picture2.TabStop = false;
             // 
-            // pictureBox4
+            // picture7
             // 
-            pictureBox4.Image = Properties.Resources.fej11;
-            pictureBox4.Location = new Point(134, 129);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(74, 71);
-            pictureBox4.TabIndex = 3;
-            pictureBox4.TabStop = false;
+            picture7.Image = Properties.Resources.fej7;
+            picture7.Location = new Point(134, 129);
+            picture7.Name = "picture7";
+            picture7.Size = new Size(74, 71);
+            picture7.TabIndex = 3;
+            picture7.TabStop = false;
             // 
-            // pictureBox5
+            // picture1
             // 
-            pictureBox5.Image = Properties.Resources.fej3;
-            pictureBox5.Location = new Point(414, 68);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(71, 71);
-            pictureBox5.TabIndex = 4;
-            pictureBox5.TabStop = false;
+            picture1.Image = Properties.Resources.fej1;
+            picture1.Location = new Point(414, 68);
+            picture1.Name = "picture1";
+            picture1.Size = new Size(71, 71);
+            picture1.TabIndex = 4;
+            picture1.TabStop = false;
+            picture1.Click += picture1_Click;
             // 
-            // pictureBox6
+            // picture10
             // 
-            pictureBox6.Image = Properties.Resources.forgbal;
-            pictureBox6.Location = new Point(185, 12);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(100, 50);
-            pictureBox6.TabIndex = 5;
-            pictureBox6.TabStop = false;
+            picture10.Image = Properties.Resources.forgbal;
+            picture10.Location = new Point(185, 12);
+            picture10.Name = "picture10";
+            picture10.Size = new Size(100, 50);
+            picture10.TabIndex = 5;
+            picture10.TabStop = false;
+            picture10.Click += picture10_Click;
             // 
-            // pictureBox7
+            // picture9
             // 
-            pictureBox7.Image = Properties.Resources.forgjobb;
-            pictureBox7.Location = new Point(558, 22);
-            pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(100, 50);
-            pictureBox7.TabIndex = 6;
-            pictureBox7.TabStop = false;
+            picture9.Image = Properties.Resources.forgjobb;
+            picture9.Location = new Point(531, 12);
+            picture9.Name = "picture9";
+            picture9.Size = new Size(100, 50);
+            picture9.TabIndex = 6;
+            picture9.TabStop = false;
+            picture9.Click += picture9_Click;
             // 
-            // pictureBox8
+            // picture8
             // 
-            pictureBox8.Image = Properties.Resources.fej5;
-            pictureBox8.Location = new Point(272, 68);
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(76, 76);
-            pictureBox8.TabIndex = 7;
-            pictureBox8.TabStop = false;
+            picture8.Image = Properties.Resources.fej8;
+            picture8.Location = new Point(272, 68);
+            picture8.Name = "picture8";
+            picture8.Size = new Size(76, 76);
+            picture8.TabIndex = 7;
+            picture8.TabStop = false;
             // 
-            // pictureBox9
+            // picture6
             // 
-            pictureBox9.Image = Properties.Resources.fej6;
-            pictureBox9.Location = new Point(134, 258);
-            pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(71, 68);
-            pictureBox9.TabIndex = 8;
-            pictureBox9.TabStop = false;
+            picture6.Image = Properties.Resources.fej6;
+            picture6.Location = new Point(134, 258);
+            picture6.Name = "picture6";
+            picture6.Size = new Size(71, 68);
+            picture6.TabIndex = 8;
+            picture6.TabStop = false;
             // 
-            // pictureBox10
+            // picture3
             // 
-            pictureBox10.Image = Properties.Resources.fej7;
-            pictureBox10.Location = new Point(558, 247);
-            pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(75, 68);
-            pictureBox10.TabIndex = 9;
-            pictureBox10.TabStop = false;
+            picture3.Image = Properties.Resources.fej3;
+            picture3.Location = new Point(558, 247);
+            picture3.Name = "picture3";
+            picture3.Size = new Size(75, 68);
+            picture3.TabIndex = 9;
+            picture3.TabStop = false;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(pictureBox10);
-            Controls.Add(pictureBox9);
-            Controls.Add(pictureBox8);
-            Controls.Add(pictureBox7);
-            Controls.Add(pictureBox6);
-            Controls.Add(pictureBox5);
-            Controls.Add(pictureBox4);
-            Controls.Add(pictureBox3);
-            Controls.Add(pictureBox2);
-            Controls.Add(pictureBox1);
+            Controls.Add(picture3);
+            Controls.Add(picture6);
+            Controls.Add(picture8);
+            Controls.Add(picture9);
+            Controls.Add(picture10);
+            Controls.Add(picture1);
+            Controls.Add(picture7);
+            Controls.Add(picture2);
+            Controls.Add(picture4);
+            Controls.Add(picture5);
             Name = "Form1";
             Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picture5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picture4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picture2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picture7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picture1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picture10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picture9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picture8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picture6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picture3).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
-        private PictureBox pictureBox3;
-        private PictureBox pictureBox4;
-        private PictureBox pictureBox5;
-        private PictureBox pictureBox6;
-        private PictureBox pictureBox7;
-        private PictureBox pictureBox8;
-        private PictureBox pictureBox9;
-        private PictureBox pictureBox10;
+        private PictureBox picture5;
+        private PictureBox picture4;
+        private PictureBox picture2;
+        private PictureBox picture7;
+        private PictureBox picture1;
+        private PictureBox picture10;
+        private PictureBox picture9;
+        private PictureBox picture8;
+        private PictureBox picture6;
+        private PictureBox picture3;
     }
 }
