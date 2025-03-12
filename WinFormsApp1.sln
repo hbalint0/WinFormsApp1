@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kurzor", "Kurzor\Kurzor.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozg", "Mozg\Mozg.csproj", "{76EF7047-CECB-4CC0-9B3E-050227148935}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kepekkorbe", "Kepekkorbe\Kepekkorbe.csproj", "{B3238D42-0496-444E-B041-201C3CB58E4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kepekkorbe", "Kepekkorbe\Kepekkorbe.csproj", "{B3238D42-0496-444E-B041-201C3CB58E4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp3", "WinFormsApp3\WinFormsApp3.csproj", "{D6692039-2276-4391-B1FF-0B251908370F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B3238D42-0496-444E-B041-201C3CB58E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3238D42-0496-444E-B041-201C3CB58E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3238D42-0496-444E-B041-201C3CB58E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6692039-2276-4391-B1FF-0B251908370F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6692039-2276-4391-B1FF-0B251908370F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6692039-2276-4391-B1FF-0B251908370F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6692039-2276-4391-B1FF-0B251908370F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
